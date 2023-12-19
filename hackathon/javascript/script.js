@@ -4,7 +4,7 @@ function validateLogin() {
     var errorMessage = document.getElementById("error-message");
 
     // Simple validation
-    if (username === "hitanshu" && password === "hello") {
+    if (username === "cyber-knight" && password === "hello") {
         errorMessage.innerHTML = ""; // Clear any previous error messages
         alert("Login successful!");
         window.location.replace("index2.html");
