@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maps</title>
+  <link rel="stylesheet" href="\static\styles\mainpage.css">
+  <!-- Include the Google Maps JavaScript API -->
+  <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB9WTC3jzkyktjVa0OTgE4nbOjtrdQrZGU&libraries=places&callback=initMap"></script>
+</head>
+<body>
+
+  <h1>Maps</h1>
+
+  <!-- Map Input Form -->
+  <form id="mapForm">
+    
+    <label for="pincode">Pincode:</label>
+    <input type="text" id="pincode" name="pincode" placeholder="Enter Pincode">
+    <button type="button" onclick="showMap()">Show Location by Coordinates</button>
+    <button type="button" onclick="showLocationByPincode()">Show Location by Pincode</button>
+  </form>
+
+  <!-- Map Display -->
+  <div id="map" style="height: 600px;"></div>
+
+  <script type="module" src="\static\javascript\maps.js">
+    
+  </script>
+
+</body>
+</html>

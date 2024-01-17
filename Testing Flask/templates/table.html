@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Table Content</title>
+  <link rel="stylesheet" href="\static\styles\mainpage.css">
+</head>
+<body>
+
+  <h1>Table Content</h1>
+  
+  
+  <label for="search">Search Filter:</label>
+    <input type="text" id="pincode" name="search" placeholder="Enter value">
+    <button type="button" class="searchbypincode">Search</button>
+    <button type="button" class="showTable">Show</button>
+  <!-- Table Content -->
+  <table>
+    <thead>
+      <tr>
+        <th>UserId</th>
+        <th>Name</th>
+        <th>Latitude</th>
+        <th>Longitude</th>
+        <th>Pincode</th>
+        <th>Phone Number</th>
+        <th>Alternate Phone No</th>
+        <th>Email</th>
+        <th>Camera Ip address</th>
+
+      </tr>
+    </thead>
+    <tbody
+    class="table-content">
+
+    </tbody>
+
+    
+  </table>
+
+  <script type="module" src="../static/javascript/tableHandle.js"></script>
+</body>
+</html>
