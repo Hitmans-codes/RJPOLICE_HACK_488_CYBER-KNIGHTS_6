@@ -1,0 +1,195 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #dcc5e8;
+  
+  
+  
+}
+.top{
+  display: flex;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  width: 1300px;
+  margin-left:270px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+
+.animate__animated{
+  margin-left: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size:28px;
+  z-index: 100;
+}
+
+.header h1 {
+  font-size: 2.5em;
+  padding-top: 10px;
+  margin: 0;
+  color: rgb(230, 219, 240);
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color:transparent;
+  
+  
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+}
+
+nav ul {
+  height: 20px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  
+  background-color:transparent;
+  list-style: none;
+  
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 80px;
+  z-index: 100;
+}
+
+nav ul li {
+  box-shadow: -2px -2px 4px rgba(29, 27, 30, 0.1);
+  box-shadow: inset  2px 2px 4px rgba(243, 239, 243, 0.1) ;
+
+  border-radius: 35%;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(229, 215, 231);
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+  color: #ff3b3b;
+}
+
+.content-container {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+.problem-section,
+.goals-section {
+  margin-bottom: 20px;
+}
+.custom-shape-divider-top-1705177492 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  z-index: 5;
+}
+
+.custom-shape-divider-top-1705177492 svg {
+  position: relative;
+  display: block;
+  width: calc(103% + 1.3px);
+  height: 187px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1705177492 .shape-fill {
+  fill: #932ba0;
+}
+
+.problem-section h2,
+.goals-section h2 {
+  color: #4d60c1;
+  border-bottom: 2px solid #4d60c1;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+.cameraholding{
+  height: 250px;
+}
+.image1{
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 10%;
+  text-align: left;
+}
+.data{
+  height: 250px;
+}
+.image2{
+  display: flex;
+  flex-direction: row;
+  margin-top:10% ;
+  text-align: left;
+}
+/* HTML: <div class="loader"></div> */
+.notification {
+  background-color: #ec471a;
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+  animation: fadein 2s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Animations Library - Add to your project */
+@import url("https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css");
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #4d60c1;
+  color: #fff;
+}
+
+#mapForm {
+  margin-top: 20px;
+}
+
+#map {
+  margin-top: 20px;
+}
